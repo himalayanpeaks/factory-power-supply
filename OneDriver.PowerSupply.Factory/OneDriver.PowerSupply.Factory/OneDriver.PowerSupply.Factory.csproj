@@ -4,10 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OneDriver.PowerSupply.Basic" Version="1.0.0" />
+    <PackageReference Include="OneDriver.PowerSupply.Basic" Version="1.1.0" />
+    <None Include="icon.png" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
